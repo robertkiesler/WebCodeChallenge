@@ -4,23 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FlipGrid</title>
+    <title>Document</title>
+    <script defer src="index.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    Let's<br>
+    Sign Up<br>
+    <br>
+    Use the form below to sign up for this super awesome<br>
+    service. You're only a few steps away!<br>
+    <br>
 </head>
 <body>
+    <div id="error"></div>
     
-<form method = "post" action = "Confirmation_Details.php">
+    <form id="form">
 
-    <label for = "fname">First Name</label><br>
-    <input type = "text" id = "fname" name = "fname"><br>
+        <div>
+            <label for="fname">First Name</label><br>
+            <input type="text" name="fname" id="fname"><br>
+        </div>
+        
+        <div>
+            <label for="email">Email Address</label><br>
+            <input type="email" name="email" id="email"><br>
+        </div>
 
-    <label for = "email">Email Address</label><br>
-    <input type = "text" id = "email" name = "email"><br>
+        <div>
+            <label for="pwd">Password</label><br>
+            <input type="password" name="pwd" id="pwd"><br>
+        </div>
 
-    <label for = "pwd">Password</label><br>
-    <input type = "text" id = "pwd" name = "pwd"><br>
+        <div>
+            <button type="submit" id="myButton">Submit</button>
+        </div>
 
-    <button>Sign Up</button>
-    
-</form>
+   </form> 
+   
 </body>
 </html>
