@@ -1,0 +1,49 @@
+body {
+    background-color: whitesmoke;
+  }
+  
+  #mainBox {
+    width: 30%;
+    height: 40%;
+    background-color: white;
+    margin-left: 35%;
+    margin-top: 10%;
+    padding-left: 2%;
+    padding-top: 0.5%;
+    border-radius: 3%;
+    border: 10px gray;
+  }
+  
+  .formInput {
+    width: 95%;
+    margin: 2% 0;
+    height: 2rem;
+    border: 1px solid grey;
+  }
+  
+  .formLabel {
+    font-weight: bold;
+    font-size: medium;
+  }
+  
+  .message {
+    width: 95%;
+    font-weight: 500;
+  }
+  
+  #btnSignUp {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 70%;
+    border-radius: 7%;
+    font-size: large;
+    background-color: red;
+    width: 25%;
+  }
+  #btnBox {
+    display: block;
+  }
+  
+  #inBold {
+    font-weight: bold;
+  }
