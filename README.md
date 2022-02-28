@@ -1,13 +1,16 @@
 # WebCodeChallenge
+
 Web Code Challenge for Microsoft 2.26.22
 Created By: Rob Kiesler 
 
-**Technologies Used**
+## Technologies Used
+
 For this project I chose to do it using CSS, JavaScript (JS), and HTML. I also leveraged bootstrap. This was done as a browser based project utilizing Visual Studio Code for my IDE of choice.
 
 I have some experience using Android Studio, and debated whether to do this in that platform or use the technologies listed above. I think it would be really neat to carry this into Android Studio!
 
-**Project Description and How-to-Run**
+## Project Description and How-to-Run
+
 Description: This project involves creating a sign-up form for a new user and subsequently, a confirmation page that will follow provided the user inputs pass the validation checks.
 
 How-to-Run: The project contains six files: 1) README.MD 2) index.html 3) styles.css 4) success.html 5) script.js and 6) successScript.js
@@ -17,7 +20,8 @@ Step 2) Right-click index.html file -> open with Chrome browser
 Step 3) Enter a First Name, Email Address, and Password -> click "Sign Up"
 Step 4) Read confirmation page -> "Sign In" button is displayed but without functionality 
 
-**Methodology**
+## Methodology
+
 My project evolved over several iterations. I started by trying to do everything in a few files, and even thought about doing a PHP file but didn't have ample time to setup a server. My final approach was:
 
 1) Create an index.html file that contained all the appropriate elements to gather the users' inputs
@@ -27,6 +31,7 @@ My project evolved over several iterations. I started by trying to do everything
 
 Note: My initial approach to handle validation was within the HTML code itself, for example, for First Name, I started by just adding "required", which works well, but is quite limited in its validation measures. So later I pulled this out into the script.js file to expand the checks it does
 
-**Source Citing**
+## Source Citing
+
 Bootstrap: https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css; CDN Via JSDelivr
 
